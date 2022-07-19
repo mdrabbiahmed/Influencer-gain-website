@@ -1,0 +1,35 @@
+    /* font */
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;0,600;1,700&display=swap');
+    
+body{
+        font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+    /* navigation part */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content{
+    
+    margin-left: 120px;
+    font-size: 24px;
+    color: #3A3A3A;
+
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    align-items: center;
+    
+}
+.header-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+    padding-right: 20px;
+}
