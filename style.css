@@ -11,6 +11,7 @@ body{
 .navigation{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .header-content{
     
@@ -32,4 +33,131 @@ body{
     font-size: 16px;
     color: #3A3A3A;
     padding-right: 20px;
+}
+
+    /* navigation part end */
+/* ...................................     */
+
+ /* main section start */
+.main-section{
+    display: flex;
+    
+}
+.main-section-detail{
+    margin-left: 120px;
+    width: 100%;
+}
+.main-section-detail p{
+    font-size: 16px;
+    color: #3A3A3A;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.main-section-detail a{
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    
+}
+.main-section-detail img{
+    width: 80%;
+}
+
+.main-section-detail h1{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+ /* main section End */
+
+/* logo section start */
+.logo{
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+    /* margin: 100px 227px; */
+    margin: 100px 165px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* logo section end */
+
+/* popular section start */
+h3.popular-title{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+    font-weight: 600;
+}
+.populars{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 210px;
+    margin-right: 197px;
+   
+}
+.popular{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+}
+.popular-banner{
+    border-radius: 5px;
+    padding-left: 14px;
+}
+}
+.popular-banner img{
+    width: 300px;
+    height: 256px;
+    
+}
+.popular-details{
+    padding-left: 14px;
+}
+.popular-banner-name{
+    font-size: 28px;
+    color: #18191F;
+}
+.dollar{
+    font-size: 24px;
+    color:#000000;
+    margin-top: -25px;
+}
+.title-info i{
+    color:#FB8200;
+}
+.title-info span{
+    font-size: 14px;
+    color:#5E6366;
+}
+.popular-author{
+    width:196px;
+    height:61px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+   
+}
+.see-more p{
+    color: #E02C6D;
+    text-align: right;
+    margin-right: 115px;
+}
+/* join area section */
+.join-now-container{
+    display: flex;
+    margin: 100px 165px;
+}
+.products details img{  
+    width: 100%;
+}
+.popular-details{
+    padding-left: 100px;
 }
